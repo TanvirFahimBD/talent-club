@@ -10,8 +10,6 @@ const Exercises = ({ handleExerciseTime }) => {
       .then((data) => setExercises(data));
   }, []);
 
-  // console.log("exercises", exercises);
-
   return (
     <div className="my-3">
       <h3 className="my-4">🏅Talent Club</h3>
