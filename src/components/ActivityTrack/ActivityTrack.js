@@ -23,7 +23,7 @@ const ActivityTrack = ({ exerciseTime }) => {
         </div>
       </div>
       {/* fitness info  */}
-      <div className="d-flex  border rounded m-2 p-2">
+      <div className="d-flex  border rounded m-4 p-2">
         <div className="mx-3">
           <p>63Kg</p>
           <p>Weight</p>
@@ -39,7 +39,7 @@ const ActivityTrack = ({ exerciseTime }) => {
       </div>
       <h4>Add a break</h4>
       {/* break list  */}
-      <div className="d-flex border rounded m-2 p-2">
+      <div className="d-flex border rounded m-4 p-2">
         <button
           className="btn btn-primary mx-2"
           onClick={() => setBreakTime(10)}
@@ -72,11 +72,11 @@ const ActivityTrack = ({ exerciseTime }) => {
         </button>
       </div>
       <h4>Exercise details</h4>
-      <div className="d-flex  border rounded m-2 p-2">
+      <div className="d-flex  border rounded m-4 p-2">
         <span className="me-5">Exercise time</span>{" "}
         <span>{exerciseTime} minutes</span>
       </div>
-      <div className="d-flex  border rounded m-2 p-2">
+      <div className="d-flex  border rounded m-4 p-2">
         <span className="me-5">Break time</span>{" "}
         <span>{breakTime} seconds</span>
       </div>
