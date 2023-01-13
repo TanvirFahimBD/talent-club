@@ -9,15 +9,17 @@ const Home = () => {
     setExerciseTime(newExerciseTime);
   };
   return (
-    <div className="container text-center">
-      {/* exercises show  */}
-      <div className="row">
-        <div className="col-8">
-          <Exercises handleExerciseTime={handleExerciseTime} />
-        </div>
-        {/* activity tracking  */}
-        <div className="col-4">
-          <ActivityTrack exerciseTime={exerciseTime} />
+    <div className="d-flex flex-sm-column">
+      <div className="container text-center">
+        {/* exercises show  */}
+        <div className="row d-flex flex-column flex-md-row ">
+          <div className="col-8">
+            <Exercises handleExerciseTime={handleExerciseTime} />
+          </div>
+          {/* activity tracking  */}
+          <div className="col-4">
+            <ActivityTrack exerciseTime={exerciseTime} />
+          </div>
         </div>
       </div>
     </div>
