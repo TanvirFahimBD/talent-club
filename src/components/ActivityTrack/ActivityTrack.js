@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
-const ActivityTrack = () => {
+const ActivityTrack = ({ exerciseTime }) => {
+  const [breakTime, setBreakTime] = useState(0);
+
   return (
     <div className="my-5">
       {/* exercise track  */}
@@ -38,18 +40,45 @@ const ActivityTrack = () => {
       <h4>Add a break</h4>
       {/* break list  */}
       <div className="d-flex border rounded m-2 p-2">
-        <p className="mx-2">10s</p>
-        <p className="mx-2">20s</p>
-        <p className="mx-2">30s</p>
-        <p className="mx-2">40s</p>
-        <p className="mx-2">50s</p>
+        <button
+          className="btn btn-primary mx-2"
+          onClick={() => setBreakTime(10)}
+        >
+          10s
+        </button>
+        <button
+          className="btn btn-primary mx-2"
+          onClick={() => setBreakTime(20)}
+        >
+          20s
+        </button>
+        <button
+          className="btn btn-primary mx-2"
+          onClick={() => setBreakTime(30)}
+        >
+          30s
+        </button>
+        <button
+          className="btn btn-primary mx-2"
+          onClick={() => setBreakTime(40)}
+        >
+          40s
+        </button>
+        <button
+          className="btn btn-primary mx-2"
+          onClick={() => setBreakTime(50)}
+        >
+          50s
+        </button>
       </div>
       <h4>Exercise details</h4>
       <div className="d-flex  border rounded m-2 p-2">
-        <span className="me-5">Exercise time</span> <span>30 minutes</span>
+        <span className="me-5">Exercise time</span>{" "}
+        <span>{exerciseTime} minutes</span>
       </div>
       <div className="d-flex  border rounded m-2 p-2">
-        <span className="me-5">Break time</span> <span>30 seconds</span>
+        <span className="me-5">Break time</span>{" "}
+        <span>{breakTime} seconds</span>
       </div>
       <div>
         <button className="btn btn-primary">Activity Completed</button>

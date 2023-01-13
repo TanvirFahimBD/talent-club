@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Exercise from "./Exercise";
 
-const Exercises = () => {
+const Exercises = ({ handleExerciseTime }) => {
   const [exercises, setExercises] = useState([]);
 
   useEffect(() => {
@@ -19,7 +19,11 @@ const Exercises = () => {
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {/* all exercises  */}
         {exercises?.map((exercise) => (
-          <Exercise key={exercise._id} exercise={exercise} />
+          <Exercise
+            key={exercise._id}
+            exercise={exercise}
+            handleExerciseTime={handleExerciseTime}
+          />
         ))}
       </div>
     </div>
