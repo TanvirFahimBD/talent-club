@@ -2,7 +2,7 @@ import React from "react";
 
 const Exercise = (props) => {
   // single exercise
-  const { _id, picture, name, time } = props.exercise;
+  const { picture, name, time } = props.exercise;
   return (
     <div className="col">
       <div className="card">
