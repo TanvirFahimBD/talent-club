@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ActivityTrack from "../ActivityTrack/ActivityTrack";
 import Exercises from "../Exercises/Exercises";
 
 const Home = () => {
   const [exerciseTime, setExerciseTime] = useState(0);
   const handleExerciseTime = (addedExerciseTime) => {
-    console.log(addedExerciseTime);
     const newExerciseTime = exerciseTime + addedExerciseTime;
     setExerciseTime(newExerciseTime);
   };
