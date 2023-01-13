@@ -18,8 +18,8 @@ const ActivityTrack = ({ exerciseTime }) => {
           />
         </div>
         <div>
-          <p>Tom Andrew</p>
-          <p>🚩London, UK</p>
+          <h5>Tom Andrew</h5>
+          <h6>🚩London, UK</h6>
         </div>
       </div>
       {/* fitness info  */}
