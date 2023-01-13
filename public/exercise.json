@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "63c1a4981398368866b9c353",
+    "picture": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Dumbly try",
+    "time": 37
+  },
+  {
+    "_id": "63c1a4981f48b5f90b2acd30",
+    "picture": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Jump & Relax",
+    "time": 34
+  },
+  {
+    "_id": "63c1a4989d14726ebc8146f7",
+    "picture": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGV4ZXJjaXNlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Move Dumbly",
+    "time": 30
+  },
+  {
+    "_id": "63c1a498899bfde300712d81",
+    "picture": "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Full body stretch",
+    "time": 36
+  },
+  {
+    "_id": "63c1a498e949a66117ec2db1",
+    "picture": "https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Push Up & down",
+    "time": 35
+  },
+  {
+    "_id": "63c1a498d83b55fffada963f",
+    "picture": "https://images.unsplash.com/photo-1487956382158-bb926046304a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGV4ZXJjaXNlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Walking",
+    "time": 21
+  }
+]
