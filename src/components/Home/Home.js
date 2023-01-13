@@ -6,10 +6,12 @@ const Home = () => {
   const [exerciseTime, setExerciseTime] = useState(0);
   return (
     <div className="container text-center">
+      {/* exercises show  */}
       <div className="row">
         <div className="col-8">
           <Exercises />
         </div>
+        {/* activity tracking  */}
         <div className="col-4">
           <ActivityTrack />
         </div>

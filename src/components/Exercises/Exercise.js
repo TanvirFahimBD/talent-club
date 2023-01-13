@@ -1,6 +1,7 @@
 import React from "react";
 
 const Exercise = (props) => {
+  // single exercise
   const { _id, picture, name, time } = props.exercise;
   return (
     <div className="col">
@@ -8,8 +9,8 @@ const Exercise = (props) => {
         <img src={picture} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
-          <p className="card-text">{time} minutes</p>
-          <button className="btn btn-primary"></button>
+          <p className="card-text">Time required: {time} minutes</p>
+          <button className="btn btn-primary">Add to List</button>
         </div>
       </div>
     </div>
